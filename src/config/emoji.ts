@@ -1,64 +1,42 @@
 export const emoji = {
-	// EMOJIS //
-	yes: "<:yes:1286420561341186129>",
-	no: "<:no:1286420485885657098>",
-	link: "<:link:1302910872821436426>",
-	party: "<:party:1302910888986284032>",
-	artist: "<:artist:1286590660887056394>",
-	clock: "<:cooldown:1286420559269199916>",
-	user: "<:user:1286590662652723250>",
-	play: "<:play:1286420469431406703>",
-	pause: "<:pause:1286420474372423765>",
-	loop: "<:loop:1286420450569879585>",
-	shuffle: "<:shuffle:1286420452612374528>",
-	previous: "<:previous:1286420463010058270>",
-	rewind: "<:rewind:1286420458622812263>",
-	forward: "<:forward:1286420460585619547>",
-	skip: "<:skip:1286420464817668160>",
-	stop: "<:stop:1286582760491716619>",
-	trash: "<:trash:1302914693882445874>",
-	volUp: "<:volup:1286420454793543721>",
-	volDown: "<:voldown:1286420456781381768>",
-	list: "<:list:1302921828188295222>",
-	info: "<:info:1286420443905134612>",
-	music: "<:music:1286420441769971894>",
-	warn: "<:warn:1286420483482583221>",
-	home: "<:home:1305038165391704177>",
-	globe: "<:globe:1305038163315654666>",
-	slash: "<:slash:1305038167660826714>",
-	ping: "<:ping:1305038170294845460>",
-	question: "<:question:1305038160962785352>",
-	pencil: "<:pencil:1286420448174669915>",
-	think: "<a:think:1383156714404188260>",
-	heart: "<:heart:1390394352416723045>",
-	folder: "<:folder:1395450957227229204>",
+    // CUSTOM EMOJIS
+    yes: "<:emoji_13:1567889935221137519>",
+    no: "<:emoji_12:1567889883211628564>",
+    link: "<a:xieron_stolen_emoji_1793887667:1567903260516552737>",
+    party: "<:party:1302910888986284032>",
+    artist: "<:emoji_7:1567881465767927848>",
+    clock: "<:emoji_8:1567881527319207976>",
+    user: "<:emoji_9:1567881594574995466>",
+    play: "<:emoji_6:1567881401548808313>",
+    pause: "<:emoji_15:1567893617996079105>",
+    loop: "<:emoji_17:1567893746450698280>",
+    shuffle: "<:emoji_13:1567893479399362571>",
+    previous: "<:emoji_14:1567893557602164777>",
+    rewind: "<:rewind:1286420458622812263>",
+    forward: "<:emoji_16:1567893676397437021>",
+    skip: "<:emoji_16:1567893676397437021>",
+    stop: "<:emoji_19:1567893904609640498>",
+    trash: "<:xieron_stolen_emoji_1793885713:1567895065999974511>",
+    volUp: "<:emoji_17:1567893807192608768>",
+    volDown: "<:emoji_20:1567894016354291793>",
+    list: "<:emoji_2:1567877836780601475>",
+    info: "<:emoji_3:1567877907211091969>",
+    music: "<:emoji_4:1567877974995247115>",
+    warn: "<:emoji_10:1567883315300671528>",
+    home: "<:home:1305038165391704177>",
+    globe: "<:xieron_stolen_emoji_1793889537:1567911104103841922>",
+    slash: "<a:xieron_stolen_emoji_1793889523:1567911047074021450>",
+    ping: "<:xieron_stolen_emoji_1793889508:1567910981940813845>",
+    question: "<:question:1305038160962785352>",
+    pencil: "<:emoji_1:1567877767507476591>",
+    think: "<a:think:1383156714404188260>",
+    heart: "<:heart:1390394352416723045>",
+    folder: "<:emoji_5:1567878071845916722>",
 
-	// NODE EMOJIS //
-	nodeOn: "<:g_:1286428522084306955>",
-	nodeOff: "<:r_:1286428524051304528>",
+    // NODE EMOJIS
+    nodeOn: "<:g_:1286428522084306955>",
+    nodeOff: "<:r_:1286428524051304528>",
 } as const;
 
 export type EmojiConfig = typeof emoji;
 export type Emoji = keyof EmojiConfig;
-
-/*
- * Soundy - A powerful music bot built with Seyfert and lavalink-client to play high quality music in your Discord server for free.
- 
- * Credits:
- * - Contributed by: iaMJ
- * - Developed by: Tronix Development
- * - Country: Indonesia
-
- * Discord:
- * - Tronix Development: https://discord.gg/pTbFUFdppU
-  
- * Libraries & Technologies:
- * - Seyfert - Core Discord API framework
- * - lavalink-client - Lavalink client for music streaming
- * - Lavalink - Audio player backend
- * - Bun - Runtime environment
-
- * Copyright © 2024 Tronix Development
- * All rights reserved. This bot and its source code are under licensed by Tronix Development and copyright law on Indonesia.
- * For permission to use this bot commercially, please contact Tronix Development at https://discord.gg/pTbFUFdppU
- */

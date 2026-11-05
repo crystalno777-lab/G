@@ -219,10 +219,9 @@ export default {
 					11: "Support Server",
 					12: "Vote for me",
 					13: "Credits",
-					14: ({ author }: { author: string }) => `- Contributed by: ${author}`,
-					15: ({ developer }: { developer: string }) =>
-						`- Developed by: ${developer}`,
-					16: ({ country }: { country: string }) => `- Country: ${country}`,
+					14: () => "# MADE BY @ice.w",
+                                        15: () => "",
+                                        16: () => "",
 				},
 				contributors: {
 					button: "Contributors",
